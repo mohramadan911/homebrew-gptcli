@@ -4,6 +4,6 @@ class gptcli < Formula
   url "https://github.com/mohramadan911/gptcli/get/HEAD.zip", :using => :curl
 
   def install
-    bin.install "mohramadan911/gptcli"
+    bin.install "bin/gptcli"
   end
 end
