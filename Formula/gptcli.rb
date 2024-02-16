@@ -1,8 +1,8 @@
 class Gptcli < Formula
   desc "Your CLI as a GPT"
   homepage "https://github.com/mohramadan911/gptcli"
-  url "https://github.com/mohramadan911/gptcli/archive/refs/tags/v1.2.5.tar.gz"
-  sha256 "29bbaa4de1c549f6c02cca793e5b403cb8841af0706613da1434ebc67fc9e261"
+  url "https://github.com/mohramadan911/gptcli/archive/refs/tags/v1.2.6.tar.gz"
+  sha256 "683965b20c5894b81df93fd3430e6a1ad504052cd29baebc8a482910c0c15636"
 
   def install
     bin.install "bin/gptcli"
