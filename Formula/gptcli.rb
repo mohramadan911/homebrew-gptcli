@@ -11,4 +11,5 @@ class Gptcli < Formula
   test do
     assert_match "gptcli #{version}", shell_output("#{bin}/gptcli --version")
   end
+end
   
