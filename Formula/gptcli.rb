@@ -6,6 +6,7 @@ class Gptcli < Formula
 
   def install
     bin.install "bin/gptcli"
+    bin.install "VERSION"
   end
 
   test do
